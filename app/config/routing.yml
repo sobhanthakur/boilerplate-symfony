@@ -1,0 +1,5 @@
+app:
+  resource: '@AppBundle/Controller/API'
+  type: annotation
+  prefix:   /
+  defaults: {_format:json}
